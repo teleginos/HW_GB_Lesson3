@@ -2,8 +2,6 @@
 string number = Console.ReadLine();
 string Flag = "True";
 
-// Console.WriteLine(number[number.Length - 1]);
-
 if (number.All(char.IsDigit) && number.Length >= 2)
 {
     for(int i = 0; i <= number.Length / 2; i += 1)
