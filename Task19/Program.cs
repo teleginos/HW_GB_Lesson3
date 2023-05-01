@@ -9,6 +9,7 @@ if (number.All(char.IsDigit) && number.Length >= 2)
         if(number[i] != number[number.Length - 1 - i])
         {
             Flag = "False";
+            break;
         }
     }
     if(Flag == "True")
